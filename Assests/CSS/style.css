@@ -1,0 +1,79 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar { 
+    background-color: white;
+}
+.nav-link{
+    color:black;
+   font-size: 1rem;
+   font-weight: 700;
+   text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+    background-color: black;
+
+
+}
+.navbar-brand {
+    font-size: 1.25rem; 
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+}
+
+/*  main */
+
+.main{ 
+    background: url(../img/sinai.png) no-repeat right center; /* evaluar s quitar o poner la image */ 
+    background-size: contain; /* Asegura que la imagen se ajuste sin distorsión */
+    width: 100%; /* La sección ocupa todo el ancho del viewport */
+    height: 80vh; /* La sección ocupa toda la altura del viewport */
+    display: flex; /* Utiliza Flexbox para organizar el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: left; /* Alinea el contenido textual a la izquierda */
+    padding: 0 2rem; /* Espaciado interno para evitar que el contenido quede pegado */
+
+}
+
+.main h3 {
+    font-size: 4.4rem;
+    font-weight: 700;
+
+
+}
+ .main h6 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid rgb(230, 52, 112);
+    width:100% ;
+ }
+
+ .main .bt { 
+    height: 55px;
+    width: 138px;
+    background-color: rgb(230, 52, 112);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+ }
+ .main .bt:hover {
+
+    background-color: rgb(225, 37, 100);
+    transition: 0.5s;
+    
+
+ }
+
+
+
+
+
+
+    
