@@ -72,8 +72,80 @@
  }
 
 
+ .about-title {
+  font-size: 2.5rem; 
+  font-weight: bold; 
+  margin-bottom: 0.5rem; 
+  color: #000; 
+
+ }
+ .about-subtitle {
+    font-size: 1.25rem; 
+    font-weight: 400; 
+    text-transform: uppercase;
+    letter-spacing: 0.1rem; 
+    margin-bottom: 1rem; 
+    color: #555; 
+ }
 
 
 
 
+ .image-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     
+ }
+
+ .image-container img {
+    
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+ }
+
+ .text-container {
+    margin-left: 40px;
+    max-width: 100%;
+    flex: 1;
+ }
+
+ 
+
+ .text-container p {
+  font-size: 1rem; 
+  line-height: 1.6; 
+  color: #333; 
+ }
+
+ 
+.about-experiencia {
+    display: flex; /* Utiliza Flexbox para centrar */
+    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+    align-items: center; /* Alinea horizontalmente al centro */
+    justify-content: center; /* Alinea verticalmente al centro */
+    text-align: center; /* Centra el texto */
+    padding: 2rem; 
+    font-weight: bold;
+    color: #000; 
+
+}
+
+.experience li {
+    margin-bottom: 0.5rem; /* Espaciado entre los elementos de la lista */
+  }
+
+  .place {
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+  .about {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+
+
