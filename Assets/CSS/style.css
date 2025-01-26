@@ -121,11 +121,11 @@
 
  
 .about-experiencia {
-    display: flex; /* Utiliza Flexbox para centrar */
-    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
-    align-items: center; /* Alinea horizontalmente al centro */
-    justify-content: center; /* Alinea verticalmente al centro */
-    text-align: center; /* Centra el texto */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
     padding: 2rem; 
     font-weight: bold;
     color: #000; 
@@ -133,7 +133,7 @@
 }
 
 .experience li {
-    margin-bottom: 0.5rem; /* Espaciado entre los elementos de la lista */
+    margin-bottom: 0.5rem; 
   }
 
   .place {
@@ -146,6 +146,31 @@
     font-weight: 500;
     margin-bottom: 1rem;
   }
+  .info {
+    display: flex; 
+    flex-direction: column; 
+    align-items: start;  
+    padding: 1rem; 
+    font-weight: bold;
+    color: #000; 
+    text-transform: uppercase;
+    font-weight:bold; 
+  }
+
+  .cursos {
+    font-size: 1.62rem }
+
+  .skills {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    padding: 2rem; 
+    font-weight: bold;
+    color: #000; 
+
+  }
 
 
-
+  
