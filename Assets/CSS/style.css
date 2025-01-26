@@ -53,7 +53,7 @@
     width:100% ;
  }
 
- .main .bt { 
+ .main .btn { 
     height: 55px;
     width: 138px;
     background-color: rgb(230, 52, 112);
@@ -63,7 +63,8 @@
     font-weight: bold;
     border-radius: 5px;
  }
- .main .bt:hover {
+
+ .main .btn:hover {
 
     background-color: rgb(225, 37, 100);
     transition: 0.5s;
@@ -170,6 +171,15 @@
     font-weight: bold;
     color: #000; 
 
+  }
+
+  .logo {
+    
+    margin: 5px;
+  }
+
+  .a {
+    text-decoration: none;
   }
 
 
