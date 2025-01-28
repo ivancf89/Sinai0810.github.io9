@@ -50,8 +50,8 @@
     text-transform: uppercase;
     line-height: 1;
     border-bottom: 3px solid rgb(230, 52, 112);
-    width:100% ;
- }
+    width: 33%
+  }
 
  .main .btn { 
     height: 55px;
