@@ -192,4 +192,24 @@
     
   }
   
+  footer {
+    background-color: rgb(230, 52, 112); 
+    color: white; 
+    text-align: center;
+     padding: 40px; 
+     font-size: 26px;
+  }
+    
+  .p1 {
+    margin-bottom: auto; 
+    letter-spacing: 0.1 rem;
+  }
 
+  .p2 {
+    font-size: 1.25rem; 
+    font-weight: 400; 
+    margin-top:auto; 
+    letter-spacing: 0.1rem;
+  }
+
+  
